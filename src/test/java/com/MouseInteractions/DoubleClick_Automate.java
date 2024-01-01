@@ -22,7 +22,7 @@ public class DoubleClick_Automate extends Library {
 		 Thread.sleep(5000);
 		 Alert alert =  driver.switchTo().alert();
 		 alert.accept();		 
-		 driver.quit();
+		 driver.close();
 	}
 
 }
